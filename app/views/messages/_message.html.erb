@@ -1,12 +1,7 @@
-
-<!-- Can also wrap this in iterator
- @messages.each do |message|
-and call from index view with render messages/message --> 
-
-  <div class="event">
-    <div class="content">
-      <div class="summary">
-        <em><%= message.user.username %></em>: <%= message.body %>
-      </div>
+<div class="event">
+  <div class="content">
+    <div class="summary">
+      <em style="color: red"><%= message.user.username %>:</em> <%= message.body %>
     </div>
   </div>
+</div>
