@@ -7,3 +7,14 @@
 .first-element {
   padding-top: 20px;
 }
+
+#messages {
+  height: 15em;
+  overflow: auto;
+}
+
+.input {
+  button {
+    display: none;
+  }
+}
